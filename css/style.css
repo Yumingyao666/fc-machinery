@@ -270,6 +270,7 @@ body.sub-page main {
 
 .nav-container > img {
     margin-right: 15px;
+    mix-blend-mode: multiply; /* 尝试让白色背景透明，如果 logo 背景是纯白的话 */
 }
 
 .logo {

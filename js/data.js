@@ -34,6 +34,14 @@ const crushingProducts = [
         image: "./css/对辊式破碎机.jpg",
         desc: { zh: "适用于中硬和软矿石的中、细碎作业。", en: "Suitable for medium and fine crushing of medium-hard and soft ores.", ar: "مناسب للسحق المتوسط والناعم للخامات متوسطة الصلابة واللينة." }
     },
+     {
+        id: 5,
+        name: { zh: "圆锥破碎机", en: "Cone Crusher", ar: "كسارة مخروطية" },
+        category: "crushing",
+        price: "询价",
+        image: "./css/圆锥破碎机.jpg",
+        desc: { zh: "适用于中硬和软矿石的中、细碎作业。", en: "Suitable for medium and fine crushing of medium-hard and soft ores.", ar: "مناسب للسحق المتوسط والناعم للخامات متوسطة الصلابة واللينة." }
+    },
    
 ];
 
@@ -245,19 +253,23 @@ window.successSection = {
             type: "large",
             title: { zh: "专业专注", en: "Professional Focus", ar: "التركيز المهني" },
             desc: { zh: "科技缔造高品质，对技术永不止步的革新", en: "Technology creates high quality, non-stop innovation in technology", ar: "التكنولوجيا تخلق جودة عالية، ابتكار لا يتوقف في التكنولوجيا" },
-            image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+            image: "./img/professional-focus.jpg"
         },
         {
             type: "small",
             title: { zh: "客户服务", en: "Customer Service", ar: "خدمة العملاء" },
             desc: { zh: "一次交道 永远朋友", en: "One interaction, friends forever", ar: "تعامل واحد، أصدقاء للأبد" },
-            image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&q=80"
+                 image: "./img/customer-service.jpg"
+
+            
         },
         {
             type: "small",
             title: { zh: "售后服务", en: "After-sales Service", ar: "خدمة ما بعد البيع" },
             desc: { zh: "7*24h在线为您提供专业 贴心服务", en: "7*24h online to provide you with professional and attentive service", ar: "متواجدون على مدار الساعة طوال أيام الأسبوع لنقدم لك خدمة احترافية ومتميزة" },
-            image: "./css/cpxx.png"
+                      image: "./img/after-sales-service.jpg"
+
+            
         }
     ]
 };
